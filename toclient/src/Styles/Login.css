@@ -1,0 +1,200 @@
+
+.signd{
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  max-width: 750px;
+  color: rgb(40, 36, 36);
+
+}
+
+.form-component h4 {
+  color: gray;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+
+.signp{
+  font-size: 25px;
+  font-weight: 600;
+  color: #29292c;
+}
+.form-component form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.form-component button:hover{
+  background-color: #1A8EFD;
+}
+.form-component form div {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  
+}
+.form-component form input,
+.form-component form select,
+.form-component form textarea {
+  width: 350px;
+  height:55px;
+  flex: 1;
+  margin:auto;
+  font-size: 22px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+.form-component button {
+  padding: 10px 35px;
+  color: #fff;
+  font-weight: 700;
+  width: fit-content;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  margin-bottom: 30px;
+  background: linear-gradient(140deg, #9083d5, #271776ca);
+}
+
+/* Success Message */
+
+.error-message {
+  color: red;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  letter-spacing: .7px;
+  line-height: 1.7rem;
+}
+.form-component .wrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.form-component .wrapper .banner {
+  flex: 1;
+}
+.form-component .wrapper .banner:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-component .wrapper .banner:last-child img {
+  max-width: 450px;
+}
+.login-form {
+  margin: 1% auto 10px auto;
+  max-width: 800px;
+  text-align: center;
+}
+.register-form {
+  max-width: 1200px;
+  margin: 1% auto 20px auto;
+}
+.login-form h2 {
+  color: #000;
+}
+.register-form h2 {
+  color: #000;
+}
+@media (max-width: 1110px) {
+  
+  .form-component form input,
+  .form-component form select {
+    width: 350px;
+  }
+}
+@media (max-width: 888px) {
+  .form-component {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .form-component form div {
+    flex-direction: column;
+  }
+}
+.signp{
+  font-size: 25px;
+  font-weight: 600;
+  color: #29292c;
+}
+.signd{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 750px;
+  color: rgb(40, 36, 36);
+
+}
+@media (max-width: 667px) {
+  .form-component form input,
+  .form-component form select,
+  .form-component form textarea {
+    font-size: 18px;
+    padding:  10px;
+    width:350px;
+  }
+  .signd{
+    font-size: 16px;
+   
+    color: #29292c;
+  }
+}
+@media (max-width:550px){
+  .signd{
+    font-size: 13px;
+   
+    color: #29292c;
+  }
+  .signp{
+    font-size: 20px;
+    font-weight: 600;
+    color: #29292c;
+  }
+
+
+.form-component form input,
+.form-component form select,
+.form-component form textarea {
+  width: 350px;
+}
+}
+.form-component button:hover{
+  background-color: #1A8EFD;
+cursor: pointer;
+
+}
+.legal-siteTitle  {
+  text-decoration: none;
+  color: #1A8EFD;
+  font-size: 48px;
+  letter-spacing: .8px;
+}
+.legal-siteTitle {
+  padding: 0 0 8px 0;
+  border-radius: 2px;
+  background-color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.legal-siteSign{
+  color: #54de54;
+  font-family: Cambria, sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+@media(max-width:450px){
+  .form-component form input,
+.form-component form select,
+.form-component form textarea {
+  width: 300px;
+}
+}
+@media(max-width:400px){
+  .form-component form input,
+.form-component form select,
+.form-component form textarea {
+  width: 270px;
+}
+}

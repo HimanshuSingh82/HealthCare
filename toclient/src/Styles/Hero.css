@@ -1,0 +1,162 @@
+.hero-section {
+    
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 24px;
+    width: 100vw;
+    height: 100vh;
+    background: url(../Assets/dochero.jpg) top;
+    background-size:center center no-repeat cover;
+    margin-bottom: -115px;
+    background-attachment: fixed;
+    z-index: 10;
+ 
+}
+/* Text section */
+.text-section {
+    margin-left: 32px;
+    width: 60%;
+    padding: 0 32px;
+}
+.text-headline {
+    margin-bottom: 12px;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.text-title {
+    width: 100%;
+    color: rgb(30, 30, 30);
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight:600;
+}
+.text-descritpion {
+    width: 100%;
+    
+    color: rgb(22, 22, 22);
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    letter-spacing: .7px;
+    line-height: 2.6rem;
+}
+.text-appointment-btn {
+    padding: 0.6rem 0.8rem;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    outline: transparent;
+    margin-top: 20px;
+    font-size: 18px;
+   
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .9px;
+    cursor: pointer;
+    
+}
+
+.text-stats {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+}
+.text-stats-container {
+    text-align: center;
+}
+.text-stats-container > p {
+    color: rgb(77, 75, 75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    letter-spacing: .7px;
+}
+.text-stats-container p:first-child {
+    margin-bottom: 8px;
+    color: #1A8EFD;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+/* Image section */
+.hero-image-section {
+    width: 40%;
+    max-width: 100%;
+    text-align: center;
+}
+.hero-image1 {
+    width: 100%;
+    height: auto;
+}
+/* Scroll Btn */
+.scroll-up {
+    width: 45px;
+    height: 45px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #1A8EFD;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 24px;
+    z-index: 20;
+    cursor: pointer;
+}  
+.show-scroll {
+  display: flex;
+}
+/* Responsive */
+@media screen and (max-width: 13200px) {
+    .text-section {
+        width: 80%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 950px) {
+    .hero-image-section {
+        display: none;
+    }
+    .text-section {
+       margin-left: 16px;
+        width: 90%;
+        padding: 0;
+    }
+    .text-title, .text-descritpion {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .text-headline {
+        font-size: 20px;
+    }
+    .text-title {
+        font-size: 28px;
+    }
+    .text-descritpion {
+        font-size: 16px;
+    }
+    .text-appointment-btn {
+        font-size: 16px;
+    }
+    .text-stats {
+        gap: 18px;
+    }
+    .text-stats-container > p {
+        font-size: 16px;
+    }
+    .text-stats-container p:first-child {
+        font-size: 22px;
+    }
+    .scroll-up {
+        bottom: 32px;
+        right: 32px;
+    }
+}

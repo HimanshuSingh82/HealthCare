@@ -1,0 +1,149 @@
+.doctor-section {
+    
+    padding: 64px;
+    margin: 0 0 32px 0;
+    text-align: center;
+    background-color: white;
+}
+.dt-title-content {
+    margin: 0 0 20px 0;
+}
+.dt-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.dt-title > span {
+    position: relative;
+}
+.dt-title span::before {
+    content: '';
+    position: absolute;
+    width: 64%;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+}
+.dt-description {
+    width: 90%;
+    margin: 64px auto;
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    letter-spacing: .8px;
+    line-height: 1.9rem;
+}
+/* Doctor Cards */
+.dt-cards-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.dt-card {
+    width: 350px;
+    height: 320px;
+    margin:20px;
+    margin-top: 80px;
+    gap:  32px 64px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.dt-card-img {
+    width: 100%;
+    height:100%;
+    border: 0.5px solid rgba(35, 34, 34, 0.4);
+    background-position: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.dt-card-name {
+    width: auto;
+    margin: 12px 0 0 0;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+.dt-card-title {
+    
+    color: #146cf0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+   width:auto;
+    margin:  8px auto;
+    background: linear-gradient(rgb(239, 248, 245), rgb(226, 237, 226));
+    font-weight: 500;
+    letter-spacing: .7px;
+    display: block;
+}
+.dt-card-stars {
+    
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.dt-card-reviews {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+/* Responsive */
+@media screen and (max-width: 950px) {
+    .doctor-section {
+        padding: 32px;
+    }.dt-card{
+        margin: 10px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 840px) {
+.dt-card{
+    height:320px;
+    width:300px;
+}
+}
+@media screen and (max-width: 740px) {
+    .dt-card{
+        height:300px;
+        width:280px;
+    }
+    }
+    @media screen and (max-width: 700px) {
+        .dt-card{
+            height:380px;
+            width:480px;
+        }
+        }
+@media screen and (max-width: 700px) {
+    .dt-title {
+        font-size: 32px;
+    }
+    .dt-description {
+        margin: 48px 5% 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .dt-card{
+        height:350px;
+        
+    }
+    }
+    @media screen and (max-width: 400px) {
+        .dt-card{
+            height:330px;
+            
+        }
+        }

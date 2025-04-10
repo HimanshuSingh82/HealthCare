@@ -1,0 +1,108 @@
+.about-section {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: rgb(241, 244, 245);
+}
+/* Image */
+.about-image-content {
+    width: 50%;
+    max-width: 90%;
+    text-align: center;
+}
+.about-image1 {
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    border: 0.5px solid rgba(71, 72, 72, 0.4);
+
+    height: auto;
+}
+.about-image-content img {
+height: 500px;
+}
+/* Text */
+.about-text-content {
+    width: 50%;
+}
+.about-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-title > span {
+    position: relative;
+}
+.about-title span::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+}
+.about-description {
+    margin: 32px 0;
+    color: #4d4b4b;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+    line-height: 1.7rem;
+}
+.about-text-title {
+    margin: 0 0 24px 0;
+    color: #1a1919;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight:500;
+    letter-spacing: .7px;
+}
+/* Steps */
+.about-text-step {
+    margin: 16px 0;
+}
+.about-text-sTitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .7px;
+}
+.about-text-description {
+    margin: 8px 24px;
+    color: #4d4b4b;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .7px;
+    line-height: 1.6rem;
+}
+.fa-icon {
+    color: #9D2553;
+}
+/* Responsive */
+@media screen and (max-width: 1070px) {
+    .about-section {
+        display: block;
+    }
+    .about-image-content {
+        width: 90%;
+        
+        max-width: 100%;
+        margin: 0 0 32px 0;
+        margin-left: 5%;
+    }
+    .about-image-content img{
+        height: auto;
+    }
+    .about-image1 {
+        width: 100%;
+        height: auto;
+    }
+    .about-text-content {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

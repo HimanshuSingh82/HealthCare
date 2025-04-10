@@ -1,0 +1,109 @@
+.noti{
+
+  margin: 0px 20px;
+  margin-top:40px;
+} 
+.nv{
+  margin-bottom: 20px;
+  margin-top:2rem;
+}
+ 
+ .bannern:last-child {
+    height: 65vh;
+    background: #fff;
+    border-radius: 20px;
+    
+ 
+  }
+   .bannern:last-child h5 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #111;
+  }
+   .bannern table {
+    width: 100%;
+    color: #111;
+    font-size: 20px;
+  }
+   .bannern table select {
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+  }
+   table td svg{
+    display: flex;
+    margin: 0 auto;
+  }
+   table td .green{
+    font-size: 20px;
+    color: #16a34a;
+  }
+   table td .red{
+    font-size: 20px;
+    color: #dc2626;
+  }
+   .bannern table select:focus {
+    outline: none;
+  }
+   .bannern table .value-pending {
+    color: #eab308;
+  }
+   .bannern table .value-accepted {
+    color: #16a34a;
+  }
+   .bannern table .value-rejected {
+    color: #dc2626;
+  }
+   .bannern table thead {
+    text-align: justify;
+    padding: 12px 0;
+  }
+   .bannern table thead th {
+    padding: 12px 0;
+  }
+   .bannern table tbody td {
+    padding: 12px 0;
+  }
+  @media(max-width:1000px){
+    .bannern table{
+      font-size: 16px;
+    }
+  }
+  @media(max-width:800px){
+    .bannern table{
+      font-size: 12px;
+    }
+    .noti{
+      margin: 0px 10px;
+    }
+  }
+  @media(max-width:600px){
+    .bannern table{
+      font-size: 12px;
+    }
+    .noti{
+      margin: 0px 5px;
+    }
+   
+  }
+  @media(max-width:500px){
+    .bannern table{
+      font-size: 10px;
+    }
+    .noti{
+      margin: 0px 2px;
+    }
+
+  }
+  @media(max-width:420px){
+    .bannern table{
+      font-size: 8px;
+    }
+    .noti{
+      margin:0px;
+      margin-left: 1px;
+    }
+  
+  }

@@ -1,0 +1,83 @@
+.tp {
+   
+  width:300px;
+    
+    margin:  4rem auto;
+    margin-top: 2rem;
+  }
+  .doctors .banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-gap: 20px;
+    place-items: center;
+    max-width: 600px;
+    height:100vh;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin:  auto;
+    padding-bottom:2rem;
+    
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    border: 0.5px solid rgba(71, 72, 72, 0.4);
+    
+  }
+  .doctors .banner .card {
+    background:linear-gradient(rgb(255, 255, 255), rgb(155, 213, 224) );
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    height:auto;
+    width:80%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid rgb(224, 225, 226);
+    
+  }
+  .doctors .banner .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    margin-top: -120px;
+  
+  }
+  .doctors .banner .card h4 {
+    font-size: 36px;
+    color: #333;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+  }
+  .doctors .banner .card div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 22px;
+  }
+  .doctors .banner .card div p {
+    font-weight: 700;
+    margin: auto;
+  }
+  .doctors .banner .card div p span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 450px) {
+    .doctors .banner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+      grid-gap: 20px;
+    }
+    .doctors .banner .card {
+        width:90%;
+
+    }
+    .doctors .banner .card h4 {
+      font-size: 30px;}
+      .doctors .banner .card div p span {
+        font-size: 18px;
+        padding:0px;
+      }
+  }
